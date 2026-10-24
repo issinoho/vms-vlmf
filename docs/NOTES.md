@@ -1,6 +1,6 @@
 # Notes: LMF behaviour observed
 
-## N1. LMF V2.0 on both nodes (2026-10-24, x86 V9.2-4 and IA64 V8.4-2L3)
+## N1. LMF V2.0 on both nodes (2026-10-24, x86 E9.2-4 and IA64 V8.4-2L3)
 
 `probes/probe_lmf.com`, read-only. `LMF$LICENSE` is `SYS$SYSTEM:LMF$LICENSE.LDB` in
 the system table: indexed, prolog 3, one key, fixed 512-byte records, owner [1,1],

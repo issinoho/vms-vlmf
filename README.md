@@ -1,19 +1,36 @@
 # vms-vlmf
 
 A full-screen manager for the OpenVMS License Management Facility, for x86-64 and
-IA64, with the look of [vms-vtree](../vms-vtree): a framed license list with the
-details of the current license below it, a statistics panel, XTree Gold's colours,
-one-letter commands and PF1 as the GOLD key.
+IA64, in the style of VTREE, the family's file manager (to be published): a framed
+license list with the details of the current license below it, a statistics panel,
+XTree Gold's colours, one-letter commands and PF1 as the GOLD key. Part of the
+[ports and tools for OpenVMS](https://openvms.issinoho.com) family, with
+[HISTSH](https://github.com/issinoho/vms-histsh) and
+[Steward](https://github.com/issinoho/vms-steward).
 
 It shows every license in the database and lets you **register** (add), **modify**
 (edit), **remove**, disable or enable, and load licenses, either by typing a PAK into
 a form or by reading the PAKs from a file (a `LICENSE ISSUE/PROCEDURE` file or a PAK
 listing as VSI sends them).
 
-**Status: early development.** Tested end to end on x86-64 (V9.2-4) and IA64
-(V8.4-2L3) against copies of the license database. See [docs/PLAN.md](docs/PLAN.md).
+**Status: 0.1.0, an early test release.** Tested end to end on x86-64 (E9.2-4)
+and IA64 (V8.4-2L3) against copies of the license database. PCSI kits are on the
+[releases page](https://github.com/issinoho/vms-vlmf/releases). See
+[docs/PLAN.md](docs/PLAN.md).
 
-## Trying it
+## Installing
+
+A kit downloaded through a non-VMS system loses its record format. Restore it,
+then install:
+
+    $ SET FILE/ATTRIBUTE=(RFM:FIX,LRL:8192,MRS:8192,RAT:NONE) ISSINOHO-*-VLMF-T0001-0-1.PCSI
+    $ PRODUCT INSTALL VLMF /PRODUCER=ISSINOHO /SOURCE=dev:[dir]
+    $ VLMF :== $VLMF:VLMF.EXE
+
+Add `@SYS$STARTUP:VLMF$STARTUP.COM` to `SYS$MANAGER:SYSTARTUP_VMS.COM` to define the
+`VLMF` logical name at every boot.
+
+## Building from source
 
 Build on the node with `@build_vms`, then
 

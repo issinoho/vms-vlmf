@@ -78,8 +78,10 @@ Kits built 2026-10-24 (`tools/kit.sh <node>`, producer ISSINOHO, version from
 and ISSINOHO-I64VMS-VLMF-T0001-0-1.PCSI. The kit installs [VLMF]VLMF.EXE, README.VMS,
 LICENSE. and SYS$STARTUP:VLMF$STARTUP.COM, which defines VLMF$ROOT and VLMF; users
 run it as `VLMF :== $VLMF:VLMF.EXE` (no DCL verb: a DCLTABLES change is not worth it).
-Next: install test (`tests/vms/pcsi_install.com`, system-wide, with the user's
-agreement), a GitHub repo, then the family release process (tag v0.1.0).
+Installed from the kits on both nodes 2026-10-24 with the user's agreement
+(`tests/vms/pcsi_install.com`: files in SYS$COMMON:[VLMF], logical names defined,
+`VLMF -v` says 0.1.0), then the installed image run read-only on the system
+database under PTYDRIVE (`tests/vms/test_installed.com`). Released as v0.1.0.
 
 ## Later ideas
 
