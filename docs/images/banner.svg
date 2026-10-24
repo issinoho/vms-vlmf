@@ -1,0 +1,192 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 792 480" font-family="DejaVu Sans Mono, Menlo, Consolas, monospace" font-size="16">
+<rect width="792" height="480" rx="8" fill="#0000aa"/>
+<rect x="31.2" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="40.8" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="50.4" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="60.0" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="69.6" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="79.2" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="88.8" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="98.4" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="108.0" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="117.6" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="127.2" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="136.8" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="146.4" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="156.0" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="165.6" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="175.2" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="184.8" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="194.4" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="204.0" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="213.6" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="223.2" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="232.8" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="242.4" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="252.0" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="261.6" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="271.2" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="280.8" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="290.4" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="300.0" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="309.6" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="319.2" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="328.8" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="338.4" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="348.0" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="357.6" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="367.2" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="376.8" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="386.4" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="396.0" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="405.6" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="415.2" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="424.8" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="434.4" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="444.0" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="453.6" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="463.2" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="472.8" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="482.4" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="492.0" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="501.6" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="511.2" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="520.8" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="530.4" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="540.0" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="549.6" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<rect x="559.2" y="164" width="10.0" height="19" fill="#00aaaa"/>
+<text x="21.6" y="27" fill="#ffff55" xml:space="preserve" textLength="38.4" lengthAdjust="spacingAndGlyphs">VLMF</text>
+<text x="60.0" y="27" fill="#ffffff" xml:space="preserve" textLength="720.0" lengthAdjust="spacingAndGlyphs">   SYS$COMMON:[SYSEXE]LMF$LICENSE.LDB;1                  24-OCT-2026 15:02 </text>
+<text x="12.0" y="46" fill="#00aaaa" xml:space="preserve" textLength="768.0" lengthAdjust="spacingAndGlyphs">┌─────────────────────────────────────────────────────────┬────────────────────┐</text>
+<text x="12.0" y="65" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="31.2" y="65" fill="#ffff55" xml:space="preserve" textLength="537.6" lengthAdjust="spacingAndGlyphs">Product            Producer Status   Units  Terminates  </text>
+<text x="568.8" y="65" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="588.0" y="65" fill="#ffff55" xml:space="preserve" textLength="76.8" lengthAdjust="spacingAndGlyphs">DATABASE</text>
+<text x="770.4" y="65" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="12.0" y="84" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="21.6" y="84" fill="#ffff55" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">◆</text>
+<text x="31.2" y="84" fill="#c0c0c0" xml:space="preserve" textLength="537.6" lengthAdjust="spacingAndGlyphs">BASIC              VSI      Active       0  30-APR-2027 </text>
+<text x="568.8" y="84" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="578.4" y="84" fill="#c0c0c0" xml:space="preserve" textLength="192.0" lengthAdjust="spacingAndGlyphs">  LMF$LICENSE.LDB;1 </text>
+<text x="770.4" y="84" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="12.0" y="103" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="21.6" y="103" fill="#ffff55" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">◆</text>
+<text x="31.2" y="103" fill="#c0c0c0" xml:space="preserve" textLength="537.6" lengthAdjust="spacingAndGlyphs">C                  VSI      Active       0  30-APR-2027 </text>
+<text x="568.8" y="103" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="578.4" y="103" fill="#c0c0c0" xml:space="preserve" textLength="192.0" lengthAdjust="spacingAndGlyphs">  Made 20-APR-2023  </text>
+<text x="770.4" y="103" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="12.0" y="122" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="21.6" y="122" fill="#ffff55" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">◆</text>
+<text x="31.2" y="122" fill="#c0c0c0" xml:space="preserve" textLength="537.6" lengthAdjust="spacingAndGlyphs">COBOL              VSI      Active       0  30-APR-2027 </text>
+<text x="568.8" y="122" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="588.0" y="122" fill="#ffff55" xml:space="preserve" textLength="76.8" lengthAdjust="spacingAndGlyphs">LICENSES</text>
+<text x="770.4" y="122" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="12.0" y="141" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="21.6" y="141" fill="#ffff55" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">◆</text>
+<text x="31.2" y="141" fill="#c0c0c0" xml:space="preserve" textLength="537.6" lengthAdjust="spacingAndGlyphs">CXX-V              VSI      Active       0  30-APR-2027 </text>
+<text x="568.8" y="141" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="578.4" y="141" fill="#c0c0c0" xml:space="preserve" textLength="192.0" lengthAdjust="spacingAndGlyphs">  Total          10 </text>
+<text x="770.4" y="141" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="12.0" y="160" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="21.6" y="160" fill="#ffff55" xml:space="preserve" textLength="547.2" lengthAdjust="spacingAndGlyphs">◆DVNETEND           VSI      Active       0  12-NOV-2026 </text>
+<text x="568.8" y="160" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="578.4" y="160" fill="#c0c0c0" xml:space="preserve" textLength="192.0" lengthAdjust="spacingAndGlyphs">  Active          9 </text>
+<text x="770.4" y="160" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="12.0" y="179" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="21.6" y="179" fill="#ffff55" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">◆</text>
+<text x="31.2" y="179" fill="#000000" xml:space="preserve" textLength="537.6" lengthAdjust="spacingAndGlyphs">FORTRAN            VSI      Active     250* 30-APR-2027 </text>
+<text x="568.8" y="179" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="578.4" y="179" fill="#c0c0c0" xml:space="preserve" textLength="192.0" lengthAdjust="spacingAndGlyphs">  Disabled        1 </text>
+<text x="770.4" y="179" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="12.0" y="198" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="21.6" y="198" fill="#ffff55" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">◆</text>
+<text x="31.2" y="198" fill="#c0c0c0" xml:space="preserve" textLength="537.6" lengthAdjust="spacingAndGlyphs">OPENVMS-X86-HAOE   VSI      Active       0  30-APR-2027 </text>
+<text x="568.8" y="198" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="578.4" y="198" fill="#c0c0c0" xml:space="preserve" textLength="192.0" lengthAdjust="spacingAndGlyphs">  Loaded          9 </text>
+<text x="770.4" y="198" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="12.0" y="217" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="21.6" y="217" fill="#ffff55" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">◆</text>
+<text x="31.2" y="217" fill="#c0c0c0" xml:space="preserve" textLength="537.6" lengthAdjust="spacingAndGlyphs">PASCAL             VSI      Active       0  30-APR-2027 </text>
+<text x="568.8" y="217" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="578.4" y="217" fill="#c0c0c0" xml:space="preserve" textLength="192.0" lengthAdjust="spacingAndGlyphs">  Expired         0 </text>
+<text x="770.4" y="217" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="12.0" y="236" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="21.6" y="236" fill="#c0c0c0" xml:space="preserve" textLength="547.2" lengthAdjust="spacingAndGlyphs"> VMS-PERFMGMT       VSI      Disabled     0  30-APR-2027 </text>
+<text x="568.8" y="236" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="578.4" y="236" fill="#c0c0c0" xml:space="preserve" textLength="192.0" lengthAdjust="spacingAndGlyphs">  Within 30 d     1 </text>
+<text x="770.4" y="236" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="12.0" y="255" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="21.6" y="255" fill="#ffff55" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">◆</text>
+<text x="31.2" y="255" fill="#c0c0c0" xml:space="preserve" textLength="537.6" lengthAdjust="spacingAndGlyphs">VMS-WEBUI          VSI      Active       0  30-APR-2027 </text>
+<text x="568.8" y="255" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="588.0" y="255" fill="#ffff55" xml:space="preserve" textLength="67.2" lengthAdjust="spacingAndGlyphs">SHOWING</text>
+<text x="770.4" y="255" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="12.0" y="274" fill="#00aaaa" xml:space="preserve" textLength="566.4" lengthAdjust="spacingAndGlyphs">├─────────────────────────────────────────────────────────┤</text>
+<text x="578.4" y="274" fill="#c0c0c0" xml:space="preserve" textLength="192.0" lengthAdjust="spacingAndGlyphs">  *                 </text>
+<text x="770.4" y="274" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="12.0" y="293" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="31.2" y="293" fill="#ffff55" xml:space="preserve" textLength="124.8" lengthAdjust="spacingAndGlyphs">Authorization</text>
+<text x="156.0" y="293" fill="#c0c0c0" xml:space="preserve" textLength="412.8" lengthAdjust="spacingAndGlyphs"> EXAMPLE-X86-0006                          </text>
+<text x="568.8" y="293" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="578.4" y="293" fill="#c0c0c0" xml:space="preserve" textLength="192.0" lengthAdjust="spacingAndGlyphs">  by product        </text>
+<text x="770.4" y="293" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="12.0" y="312" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="31.2" y="312" fill="#ffff55" xml:space="preserve" textLength="57.6" lengthAdjust="spacingAndGlyphs">Issuer</text>
+<text x="88.8" y="312" fill="#c0c0c0" xml:space="preserve" textLength="67.2" lengthAdjust="spacingAndGlyphs"> VSI   </text>
+<text x="156.0" y="312" fill="#ffff55" xml:space="preserve" textLength="67.2" lengthAdjust="spacingAndGlyphs">Version</text>
+<text x="223.2" y="312" fill="#c0c0c0" xml:space="preserve" textLength="67.2" lengthAdjust="spacingAndGlyphs"> 0.0   </text>
+<text x="290.4" y="312" fill="#ffff55" xml:space="preserve" textLength="67.2" lengthAdjust="spacingAndGlyphs">Release</text>
+<text x="357.6" y="312" fill="#c0c0c0" xml:space="preserve" textLength="211.2" lengthAdjust="spacingAndGlyphs"> (none)               </text>
+<text x="568.8" y="312" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="770.4" y="312" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="12.0" y="331" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="31.2" y="331" fill="#ffff55" xml:space="preserve" textLength="67.2" lengthAdjust="spacingAndGlyphs">Options</text>
+<text x="98.4" y="331" fill="#c0c0c0" xml:space="preserve" textLength="470.4" lengthAdjust="spacingAndGlyphs"> X86_64, MOD_UNITS                               </text>
+<text x="568.8" y="331" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="578.4" y="331" fill="#c0c0c0" xml:space="preserve" textLength="192.0" lengthAdjust="spacingAndGlyphs"> X86VMS IAIN        </text>
+<text x="770.4" y="331" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="12.0" y="350" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="31.2" y="350" fill="#ffff55" xml:space="preserve" textLength="76.8" lengthAdjust="spacingAndGlyphs">PAK says</text>
+<text x="108.0" y="350" fill="#c0c0c0" xml:space="preserve" textLength="460.8" lengthAdjust="spacingAndGlyphs"> 400 units, ends 30-APR-2027  (* modified)      </text>
+<text x="568.8" y="350" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="578.4" y="350" fill="#c0c0c0" xml:space="preserve" textLength="192.0" lengthAdjust="spacingAndGlyphs">  SYSPRV: can change</text>
+<text x="770.4" y="350" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="12.0" y="369" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="31.2" y="369" fill="#ffff55" xml:space="preserve" textLength="67.2" lengthAdjust="spacingAndGlyphs">Comment</text>
+<text x="98.4" y="369" fill="#c0c0c0" xml:space="preserve" textLength="470.4" lengthAdjust="spacingAndGlyphs"> Shared by the build cluster                     </text>
+<text x="568.8" y="369" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="770.4" y="369" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="12.0" y="388" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="31.2" y="388" fill="#ffff55" xml:space="preserve" textLength="67.2" lengthAdjust="spacingAndGlyphs">Reserve</text>
+<text x="98.4" y="388" fill="#c0c0c0" xml:space="preserve" textLength="470.4" lengthAdjust="spacingAndGlyphs"> BUILD,SMITH,JONES                               </text>
+<text x="568.8" y="388" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="770.4" y="388" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="12.0" y="407" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="31.2" y="407" fill="#ffff55" xml:space="preserve" textLength="105.6" lengthAdjust="spacingAndGlyphs">Last change</text>
+<text x="136.8" y="407" fill="#c0c0c0" xml:space="preserve" textLength="432.0" lengthAdjust="spacingAndGlyphs"> 21-OCT-2026 10:14 by SYSTEM, MODIFY         </text>
+<text x="568.8" y="407" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="770.4" y="407" fill="#00aaaa" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">│</text>
+<text x="12.0" y="426" fill="#00aaaa" xml:space="preserve" textLength="768.0" lengthAdjust="spacingAndGlyphs">└─────────────────────────────────────────────────────────┴────────────────────┘</text>
+<text x="21.6" y="445" fill="#55ffff" xml:space="preserve" textLength="67.2" lengthAdjust="spacingAndGlyphs">LICENSE</text>
+<text x="108.0" y="445" fill="#ffff55" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">A</text>
+<text x="117.6" y="445" fill="#c0c0c0" xml:space="preserve" textLength="28.8" lengthAdjust="spacingAndGlyphs">dd </text>
+<text x="146.4" y="445" fill="#ffff55" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">E</text>
+<text x="156.0" y="445" fill="#c0c0c0" xml:space="preserve" textLength="38.4" lengthAdjust="spacingAndGlyphs">dit </text>
+<text x="194.4" y="445" fill="#ffff55" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">R</text>
+<text x="204.0" y="445" fill="#c0c0c0" xml:space="preserve" textLength="57.6" lengthAdjust="spacingAndGlyphs">emove </text>
+<text x="261.6" y="445" fill="#ffff55" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">D</text>
+<text x="271.2" y="445" fill="#c0c0c0" xml:space="preserve" textLength="134.4" lengthAdjust="spacingAndGlyphs">isable/enable </text>
+<text x="405.6" y="445" fill="#ffff55" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">L</text>
+<text x="415.2" y="445" fill="#c0c0c0" xml:space="preserve" textLength="38.4" lengthAdjust="spacingAndGlyphs">oad </text>
+<text x="453.6" y="445" fill="#ffff55" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">F</text>
+<text x="463.2" y="445" fill="#c0c0c0" xml:space="preserve" textLength="57.6" lengthAdjust="spacingAndGlyphs">ilter </text>
+<text x="520.8" y="445" fill="#ffff55" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">H</text>
+<text x="530.4" y="445" fill="#c0c0c0" xml:space="preserve" textLength="67.2" lengthAdjust="spacingAndGlyphs">istory </text>
+<text x="597.6" y="445" fill="#ffff55" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">I</text>
+<text x="607.2" y="445" fill="#c0c0c0" xml:space="preserve" textLength="38.4" lengthAdjust="spacingAndGlyphs">nfo </text>
+<text x="645.6" y="445" fill="#ffff55" xml:space="preserve" textLength="9.6" lengthAdjust="spacingAndGlyphs">S</text>
+<text x="655.2" y="445" fill="#c0c0c0" xml:space="preserve" textLength="124.8" lengthAdjust="spacingAndGlyphs">ort          </text>
+<text x="21.6" y="464" fill="#55ffff" xml:space="preserve" textLength="76.8" lengthAdjust="spacingAndGlyphs">COMMANDS</text>
+<text x="98.4" y="464" fill="#c0c0c0" xml:space="preserve" textLength="681.6" lengthAdjust="spacingAndGlyphs">  PF1 GOLD   Return info   Insert add   Remove remove   Help   F10 exit</text>
+</svg>

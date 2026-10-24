@@ -40,6 +40,8 @@ starting work. Work phase by phase, and stop and ask at each phase exit.
 them, then read every changed one). `tools/live.sh <node> [step...]` uploads,
 runs `build_vms TEST` and drives VLMF on a pseudo-terminal against a copy of the
 database (`tests/vms/test_live.com`); `tools/vtscreen.py` shows the screens.
+`tools/banner.sh` redraws the README banner from the Linux stub's made-up licenses
+(`stub_demo`), never from a node's real database.
 
 ## Commits
 

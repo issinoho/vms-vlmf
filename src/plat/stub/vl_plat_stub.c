@@ -15,6 +15,7 @@ static int rows_ = 24, cols_ = 80;
 static char logbuf[16384], lastproc[32768];
 static struct { char name[128]; char *text; } files[8];
 static int nfiles, fail_backup;
+static const char *dbdir = "STUB$DKA0:[SYSEXE]";
 
 static void put_lic(const char *product, const char *auth, const char *units, const char *term,
                     const char *options, const char *status, int loaded)
@@ -51,6 +52,32 @@ void stub_reset(void)
     for (i = 0; i < nfiles; i++) free(files[i].text);
     nfiles = 0;
     fail_backup = 0;
+    dbdir = "STUB$DKA0:[SYSEXE]";
+}
+
+/* A fuller made-up database for the README banner (tools/banner.sh). */
+void stub_demo(void)
+{
+    stub_reset();
+    dbdir = "SYS$COMMON:[SYSEXE]";
+    nlic = 0;
+    put_lic("BASIC", "EXAMPLE-X86-0001", "0", "30-APR-2027", "X86_64", "Active", 1);
+    put_lic("C", "EXAMPLE-X86-0002", "0", "30-APR-2027", "X86_64", "Active", 1);
+    put_lic("COBOL", "EXAMPLE-X86-0003", "0", "30-APR-2027", "X86_64", "Active", 1);
+    put_lic("CXX-V", "EXAMPLE-X86-0004", "0", "30-APR-2027", "X86_64", "Active", 1);
+    put_lic("DVNETEND", "EXAMPLE-X86-0005", "0", "12-NOV-2026", "X86_64", "Active", 1);
+    put_lic("FORTRAN", "EXAMPLE-X86-0006", "400", "30-APR-2027", "X86_64, MOD_UNITS", "Active", 1);
+    put_lic("OPENVMS-X86-HAOE", "EXAMPLE-X86-0007", "0", "30-APR-2027", "X86_64, PCL", "Active", 1);
+    put_lic("PASCAL", "EXAMPLE-X86-0008", "0", "30-APR-2027", "X86_64", "Active", 1);
+    put_lic("VMS-PERFMGMT", "EXAMPLE-X86-0009", "0", "30-APR-2027", "X86_64", "Disabled", 0);
+    put_lic("VMS-WEBUI", "EXAMPLE-X86-0010", "0", "30-APR-2027", "X86_64", "Active", 1);
+    vl_strlcpy(lic[5].mod_units, "250", sizeof lic[5].mod_units);
+    vl_strlcpy(lic[5].comment, "Shared by the build cluster", sizeof lic[5].comment);
+    vl_strlcpy(lic[5].reserve, "BUILD,SMITH,JONES", sizeof lic[5].reserve);
+    vl_strlcpy(lic[5].command, "MODIFY", sizeof lic[5].command);
+    vl_strlcpy(lic[5].revision, "3", sizeof lic[5].revision);
+    vl_strlcpy(lic[5].mod_user, "SYSTEM", sizeof lic[5].mod_user);
+    vl_strlcpy(lic[5].mod_on, "21-OCT-2026 10:14:52.06", sizeof lic[5].mod_on);
 }
 
 void stub_set_size(int rows, int cols) { rows_ = rows; cols_ = cols; }
@@ -103,7 +130,10 @@ void vlp_message(unsigned int st, char *buf, int size)
 
 unsigned int vlp_full_spec(const char *spec, char *out, int size)
 {
-    if (!vl_strcasecmp(spec, "LMF$LICENSE")) spec = "STUB$DKA0:[SYSEXE]LMF$LICENSE.LDB";
+    if (!vl_strcasecmp(spec, "LMF$LICENSE")) {
+        snprintf(out, (size_t) size, "%sLMF$LICENSE.LDB", dbdir);
+        return 1;
+    }
     if (!strchr(spec, ':') && !strchr(spec, '[')) return 0x910;
     vl_strlcpy(out, spec, (size_t) size);
     return 1;
@@ -154,7 +184,9 @@ static void list_full(outbuf *o, int history)
 {
     int i;
     out_add(o, "License Management Facility  V2.0\n  \n");
-    out_add(o, "License Database File:       STUB$DKA0:[SYSEXE]LMF$LICENSE.LDB;1\n");
+    out_add(o, "License Database File:       ");
+    out_add(o, dbdir);
+    out_add(o, "LMF$LICENSE.LDB;1\n");
     out_add(o, "Created on:                  20-APR-2023\nCreated by user:             SYSTEM\n");
     out_add(o, "Created by LMF Version:      V2.0\n  \n");
     for (i = 0; i < nlic; i++) {

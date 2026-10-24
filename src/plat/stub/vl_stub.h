@@ -5,6 +5,7 @@
 #include "vl_lic.h"
 
 void stub_reset(void);                       /* the four sample licenses, nothing loaded but two */
+void stub_demo(void);                        /* a fuller made-up set for the banner */
 void stub_set_size(int rows, int cols);
 void stub_add_file(const char *name, const char *text);
 const char *stub_log(void);                  /* every vlp_log line so far */

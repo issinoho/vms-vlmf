@@ -1,7 +1,16 @@
+<p align="center">
+  <img src="docs/images/banner.svg" alt="VLMF on OpenVMS: the license list in XTree Gold's blue, cyan and yellow, with the current license's details below it, a statistics panel and the two-line command menu" width="100%">
+</p>
+
 # vms-vlmf
 
+[![Release](https://img.shields.io/github/v/release/issinoho/vms-vlmf?label=release)](https://github.com/issinoho/vms-vlmf/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/issinoho/vms-vlmf/total?label=downloads)](https://github.com/issinoho/vms-vlmf/releases)
+![OpenVMS](https://img.shields.io/badge/OpenVMS-IA64%20%7C%20x86--64-blue)
+[![License](https://img.shields.io/github/license/issinoho/vms-vlmf)](LICENSE)
+
 A full-screen manager for the OpenVMS License Management Facility, for x86-64 and
-IA64, in the style of VTREE, the family's file manager (to be published): a framed
+IA64, in the style of [VTREE](https://github.com/issinoho/vms-vtree), the family's file manager: a framed
 license list with the details of the current license below it, a statistics panel,
 XTree Gold's colours, one-letter commands and PF1 as the GOLD key. Part of the
 [ports and tools for OpenVMS](https://openvms.issinoho.com) family, with

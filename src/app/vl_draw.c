@@ -155,7 +155,7 @@ static void draw_details(vl_app *a, int r1, int r2, int c1, int c2)
         r++;
     }
     if (r < r2 && (l->mod_units[0] || l->mod_term[0])) {
-        snprintf(t, sizeof t, "units %s, termination %s  (* modified)", l->units, l->term);
+        snprintf(t, sizeof t, "%s units, ends %s  (* modified)", l->units, l->term);
         kv(s, r++, c1, w, "PAK says", t);
     }
     if (r < r2 && l->comment[0]) kv(s, r++, c1, w, "Comment", l->comment);
