@@ -79,3 +79,12 @@ whether a plain list replaces or adds.
 SHOW LICENSE names product and producer only. VLMF marks the active records of a
 listed product as loaded, or, if none is active, its other records (disabled after
 loading). For another database than the system's, the marks still describe this node.
+
+## D10. The highlight bars are reverse video in colour mode too (2026-10-24, user report)
+
+On a terminal that drops colour or maps it to a single phosphor, VTREE's black-on-cyan
+bar (plain SGR colours) vanished: the user saw no highlighted row. The bars are now
+sent as cyan (or white) on black with reverse video (`0;36;40;7`), which a colour
+terminal shows exactly as before and any other terminal shows as reverse video.
+Checked on x86 with PTYDRIVE and `vtscreen.py --attrs` in colour and MONO mode. The
+title and menu lines still rely on colour; `VLMF$DISPLAY MONO` makes them reverse too.

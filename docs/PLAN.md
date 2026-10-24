@@ -87,6 +87,9 @@ VLMF$STARTUP added to both nodes' SYSTARTUP_VMS (vms-site-config).
 0.1.1 (2026-10-24): the kit adds `[VLMF]VLMF$SETUP.COM`, which defines the `VLMF`
 command, as the family's ports do, so that SYLOGIN can run it from its `sy_n` list.
 
+0.1.2 (2026-10-24): the highlight bars are reverse video in colour mode too, so they
+show on a terminal that ignores colour or maps it to one phosphor (user report).
+
 ## Later ideas
 
 LICENSE UNLOAD; the PAK flags MODIFY can set (`/NO_SHARE`, `/COMBINE`, `/VIRTUAL`);

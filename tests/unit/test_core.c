@@ -7,6 +7,7 @@
 #include <string.h>
 #include "vl_lic.h"
 #include "vl_util.h"
+#include "vl_ansi.h"
 
 static int checks, fails;
 #define CHECK(c) do { checks++; if (!(c)) { fails++; printf("FAIL %s:%d: %s\n", __FILE__, __LINE__, #c); } } while (0)
@@ -95,6 +96,17 @@ static const char *show_text =
 "BASIC              VSI             0  0     1      0.0  (none)      30-APR-2027 \n"
 "VMS-WEBUI          VSI             0  0     1      0.0  (none)      30-APR-2027 \n"
 "C                  VSI             0  0     1      0.0  (none)      30-APR-2027 \n";
+
+static void test_ansi(void)
+{
+    vl_cell bar = { 'A', VL_A_REV, 0 }, off = { 'A', VL_A_REV | VL_A_UNDER, 0 }, txt = { 'A', 0, 0 };
+    /* the bars are reverse video in both modes, so they show without colour */
+    CHECKS(vl_ansi_sgr(&bar, 1), "0;36;40;7");
+    CHECKS(vl_ansi_sgr(&off, 1), "0;37;40;7");
+    CHECKS(vl_ansi_sgr(&bar, 0), "0;7");
+    CHECKS(vl_ansi_sgr(&off, 0), "0;4;7");
+    CHECKS(vl_ansi_sgr(&txt, 1), "0;37;44");
+}
 
 static void test_util(void)
 {
@@ -426,6 +438,7 @@ static void test_import(void)
 int main(void)
 {
     test_util();
+    test_ansi();
     test_parse();
     test_check();
     test_build();
