@@ -55,6 +55,7 @@ $ if f$search("''out'*.PCSI;*") .nes. "" then delete/nolog 'out'*.PCSI;*
 $ if f$search("''mat'*.*;*") .nes. "" then delete/nolog 'mat'*.*;*
 $ copy/nolog [.BUILD]VLMF.EXE 'mat'
 $ copy/nolog [.KIT]VLMF$STARTUP.COM 'mat'
+$ copy/nolog [.KIT]VLMF$SETUP.COM 'mat'
 $ copy/nolog [.KIT]README.VMS 'mat'
 $ copy/nolog []LICENSE. 'mat'LICENSE.
 $ matspec = f$parse(mat,,,"DEVICE","NO_CONCEAL") + f$parse(mat,,,"DIRECTORY","NO_CONCEAL")

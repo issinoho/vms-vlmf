@@ -2,8 +2,8 @@
 #ifndef VL_TYPES_H
 #define VL_TYPES_H
 
-#define VL_VERSION "0.1.0"
-#define VL_PCSI_VERSION "T0.1-0"
+#define VL_VERSION "0.1.1"
+#define VL_PCSI_VERSION "T0.1-1"
 
 #define VL_SPEC_MAX 1024     /* a file specification, or one edited line */
 

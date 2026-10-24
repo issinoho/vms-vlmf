@@ -13,7 +13,7 @@ It shows every license in the database and lets you **register** (add), **modify
 a form or by reading the PAKs from a file (a `LICENSE ISSUE/PROCEDURE` file or a PAK
 listing as VSI sends them).
 
-**Status: 0.1.0, an early test release.** Tested end to end on x86-64 (E9.2-4)
+**Status: 0.1.1, an early test release.** Tested end to end on x86-64 (E9.2-4)
 and IA64 (V8.4-2L3) against copies of the license database. PCSI kits are on the
 [releases page](https://github.com/issinoho/vms-vlmf/releases). See
 [docs/PLAN.md](docs/PLAN.md).
@@ -23,12 +23,12 @@ and IA64 (V8.4-2L3) against copies of the license database. PCSI kits are on the
 A kit downloaded through a non-VMS system loses its record format. Restore it,
 then install:
 
-    $ SET FILE/ATTRIBUTE=(RFM:FIX,LRL:8192,MRS:8192,RAT:NONE) ISSINOHO-*-VLMF-T0001-0-1.PCSI
+    $ SET FILE/ATTRIBUTE=(RFM:FIX,LRL:8192,MRS:8192,RAT:NONE) ISSINOHO-*-VLMF-T0001-1-1.PCSI
     $ PRODUCT INSTALL VLMF /PRODUCER=ISSINOHO /SOURCE=dev:[dir]
-    $ VLMF :== $VLMF:VLMF.EXE
 
 Add `@SYS$STARTUP:VLMF$STARTUP.COM` to `SYS$MANAGER:SYSTARTUP_VMS.COM` to define the
-`VLMF` logical name at every boot.
+`VLMF` logical names at every boot, and `@VLMF$ROOT:[000000]VLMF$SETUP.COM` to
+`SYS$MANAGER:SYLOGIN.COM` (or a `LOGIN.COM`) to define the `VLMF` command.
 
 ## Building from source
 

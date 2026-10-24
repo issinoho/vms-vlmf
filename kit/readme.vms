@@ -8,7 +8,10 @@ the GOLD key. It looks like VTREE (vms-vtree).
 
 Starting it
 -----------
-    $ VLMF :== $VLMF:VLMF.EXE
+VLMF$SETUP.COM defines the VLMF command; a system manager can run it for
+everyone from SYS$MANAGER:SYLOGIN.COM:
+    $ @VLMF$ROOT:[000000]VLMF$SETUP.COM
+
     $ VLMF                       ! the system database, LMF$LICENSE
     $ VLMF SYS$LOGIN:TRY.LDB     ! or any other license database
 

@@ -11,8 +11,8 @@
 =prompt Post-installation tasks for VLMF (vms-vlmf)
     At boot, add to SYS$MANAGER:SYSTARTUP_VMS.COM:
     $ @SYS$STARTUP:VLMF$STARTUP.COM
-    For users, in SYS$MANAGER:SYLOGIN.COM or a LOGIN.COM:
-    $ VLMF :== $VLMF:VLMF.EXE
+    For users, in SYS$MANAGER:SYLOGIN.COM or a LOGIN.COM (defines VLMF):
+    $ @VLMF$ROOT:[000000]VLMF$SETUP.COM
 
 PRODUCT REMOVE VLMF deassigns VLMF$ROOT and VLMF. The license database,
 VLMF's backup copies and logs in users' SYS$LOGIN are not touched.

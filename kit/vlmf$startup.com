@@ -6,8 +6,8 @@ $! define them at every boot, add to SYS$MANAGER:SYSTARTUP_VMS.COM:
 $!
 $!     $ @SYS$STARTUP:VLMF$STARTUP.COM
 $!
-$! Users then run it with a foreign command, for example in SYLOGIN.COM:
-$!     $ VLMF :== $VLMF:VLMF.EXE
+$! Users get the VLMF command from VLMF$SETUP.COM, for example in SYLOGIN.COM:
+$!     $ @VLMF$ROOT:[000000]VLMF$SETUP.COM
 $!
 $! P1 = "INSTALL": also print the post-installation tasks (PCSI runs it so).
 $! P1 = "REMOVE":  deassign the logical names instead (PCSI runs it so at removal).
@@ -50,8 +50,9 @@ $ say ""
 $ say "    At system startup: to define VLMF$ROOT and VLMF at every boot, add to"
 $ say "    SYS$MANAGER:SYSTARTUP_VMS.COM:"
 $ say "    $ @SYS$STARTUP:VLMF$STARTUP.COM"
-$ say "    For users (in SYS$MANAGER:SYLOGIN.COM, or a user's LOGIN.COM):"
-$ say "    $ VLMF :== $VLMF:VLMF.EXE"
+$ say "    For users (in SYS$MANAGER:SYLOGIN.COM, or a user's LOGIN.COM), to define"
+$ say "    the VLMF command:"
+$ say "    $ @VLMF$ROOT:[000000]VLMF$SETUP.COM"
 $ say ""
 $ say "    Changing the system license database needs SYSPRV, loading CMKRNL and"
 $ say "    SYSNAM, as for the LICENSE command. VLMF installs no privileged image."

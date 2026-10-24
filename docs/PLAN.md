@@ -82,6 +82,10 @@ Installed from the kits on both nodes 2026-10-24 with the user's agreement
 (`tests/vms/pcsi_install.com`: files in SYS$COMMON:[VLMF], logical names defined,
 `VLMF -v` says 0.1.0), then the installed image run read-only on the system
 database under PTYDRIVE (`tests/vms/test_installed.com`). Released as v0.1.0.
+VLMF$STARTUP added to both nodes' SYSTARTUP_VMS (vms-site-config).
+
+0.1.1 (2026-10-24): the kit adds `[VLMF]VLMF$SETUP.COM`, which defines the `VLMF`
+command, as the family's ports do, so that SYLOGIN can run it from its `sy_n` list.
 
 ## Later ideas
 
