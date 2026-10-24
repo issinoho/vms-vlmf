@@ -1,0 +1,25 @@
+--
+-- PCSI product description for VLMF (vms-vlmf) on OpenVMS.
+-- Template: tools/kit.sh substitutes @PRODUCER@, @BASE@ and @PCSIVERSION@.
+--
+product @PRODUCER@ @BASE@ VLMF @PCSIVERSION@ full ;
+
+    -- VLMF.EXE needs only the C RTL, SMG$ and system services: no other product.
+
+    information RELEASE_NOTES phase after ;
+
+    directory [VLMF] ;
+
+    file [VLMF]VLMF.EXE ;
+    file [VLMF]README.VMS ;
+    file [VLMF]LICENSE. ;
+    file [SYS$STARTUP]VLMF$STARTUP.COM ;
+
+    -- Define VLMF$ROOT and VLMF now. VLMF installs no privileged images and
+    -- changes no login procedure or license: those are the system manager's.
+    execute postinstall "@PCSI$DESTINATION:[SYS$STARTUP]VLMF$STARTUP.COM INSTALL" interactive ;
+    execute install "CONTINUE" remove "@PCSI$DESTINATION:[SYS$STARTUP]VLMF$STARTUP.COM REMOVE" ;
+
+    information POST_INSTALL phase after ;
+
+end product ;

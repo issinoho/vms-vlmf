@@ -1,0 +1,18 @@
+=product @PRODUCER@ @BASE@ VLMF @PCSIVERSION@ full
+1 'PRODUCER
+=prompt @PRODUCER@
+1 'PRODUCT
+=prompt VLMF @VERSION@ for OpenVMS (vms-vlmf): full-screen license manager, early test
+1 'NOTICE
+=prompt VLMF is distributed under the MIT licence. This is an early test release.
+1 RELEASE_NOTES
+=prompt Documentation is in [VLMF]README.VMS under the installation directory.
+1 POST_INSTALL
+=prompt Post-installation tasks for VLMF (vms-vlmf)
+    At boot, add to SYS$MANAGER:SYSTARTUP_VMS.COM:
+    $ @SYS$STARTUP:VLMF$STARTUP.COM
+    For users, in SYS$MANAGER:SYLOGIN.COM or a LOGIN.COM:
+    $ VLMF :== $VLMF:VLMF.EXE
+
+PRODUCT REMOVE VLMF deassigns VLMF$ROOT and VLMF. The license database,
+VLMF's backup copies and logs in users' SYS$LOGIN are not touched.

@@ -13,6 +13,11 @@ int main(int argc, char **argv)
     int rows, cols;
     char msg[256];
 
+    /* MAKE_KIT checks the image's version this way, without a terminal. */
+    if (argc > 1 && (!strcmp(argv[1], "-v") || !strcmp(argv[1], "--version"))) {
+        printf("vlmf %s\n", VL_VERSION);
+        return SS$_NORMAL;
+    }
     st = vlp_start(&sess);
     if (!(st & 1)) {
         vlp_message(st, msg, sizeof msg);

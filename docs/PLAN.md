@@ -73,8 +73,13 @@ system database).
 
 ## Phase 2: kit and release
 
-PCSI kits for X86VMS and I64VMS (`tools/kit.sh`, producer ISSINOHO), a `VLMF` DCL
-verb, install test on a node with the user, then the family release process.
+Kits built 2026-10-24 (`tools/kit.sh <node>`, producer ISSINOHO, version from
+`src/core/vl_types.h`; MAKE_KIT checks `VLMF -v`): ISSINOHO-X86VMS-VLMF-T0001-0-1.PCSI
+and ISSINOHO-I64VMS-VLMF-T0001-0-1.PCSI. The kit installs [VLMF]VLMF.EXE, README.VMS,
+LICENSE. and SYS$STARTUP:VLMF$STARTUP.COM, which defines VLMF$ROOT and VLMF; users
+run it as `VLMF :== $VLMF:VLMF.EXE` (no DCL verb: a DCLTABLES change is not worth it).
+Next: install test (`tests/vms/pcsi_install.com`, system-wide, with the user's
+agreement), a GitHub repo, then the family release process (tag v0.1.0).
 
 ## Later ideas
 

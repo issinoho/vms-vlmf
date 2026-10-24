@@ -1,0 +1,65 @@
+VLMF @VERSION@ for OpenVMS (vms-vlmf, @ARCH@) - EARLY TEST RELEASE
+=================================================================
+
+VLMF is a full-screen manager for the License Management Facility: it shows
+every license in a license database and lets you register (add), modify,
+remove, disable or enable and load licenses, with the LK201 keys and PF1 as
+the GOLD key. It looks like VTREE (vms-vtree).
+
+Starting it
+-----------
+    $ VLMF :== $VLMF:VLMF.EXE
+    $ VLMF                       ! the system database, LMF$LICENSE
+    $ VLMF SYS$LOGIN:TRY.LDB     ! or any other license database
+
+It needs a VT100-compatible terminal of at least 24 x 80; with 132 columns the
+list also shows the authorization and comment. On a terminal without colour,
+DEFINE VLMF$DISPLAY MONO first. Help (or PF2) lists the keys; F10 or Ctrl/Z
+leaves.
+
+To try it without risk, work on a copy first:
+    $ COPY SYS$SYSTEM:LMF$LICENSE.LDB SYS$LOGIN:TRY.LDB
+    $ VLMF SYS$LOGIN:TRY.LDB
+
+The keys
+--------
+  Up/Down, Prev/Next    move; GOLD Up/Down first/last
+  Return, I             every field of the license
+  A, Insert Here        register a PAK typed into a form
+  GOLD A                register the PAKs in a file: a LICENSE ISSUE/PROCEDURE
+                        file or a PAK listing, one form each
+  E                     modify: units, termination date, comment, selection
+                        weight, include or exclude nodes, reserve users
+  D                     disable an active license, enable a disabled one
+  R, Remove             remove the license
+  L                     load it on this node
+  F, Find               filter by product name (VMS*, C%%%%)
+  S                     sort by product, producer, termination date, status
+  H                     show the history records too
+  GOLD W, Ctrl/W        read the database again; redraw
+
+A diamond before a product means SHOW LICENSE lists it as loaded on this node;
+a * after units or a date means it was modified from the PAK's value.
+
+Safety
+------
+- VLMF changes licenses only with LICENSE commands, run in a subprocess. It
+  never writes the database file itself.
+- Every change shows the exact commands first and runs them only if you type Y.
+- Before its first change in a session VLMF copies the database to VLMF$BACKUP
+  (default SYS$LOGIN:VLMF_BACKUP.LDB); if the copy fails nothing is changed.
+- Every command and its result is logged in VLMF$LOG (default SYS$LOGIN:VLMF.LOG).
+- It never uses LICENSE ISSUE, COPY or MOVE, which disable or delete the source
+  license.
+- LMF never shows a PAK's checksum: a removed license can only be registered
+  again from its PAK. Keep your PAKs.
+
+Privileges are those of the LICENSE command: changing the system database
+needs SYSPRV (or write access to the file), LOAD needs CMKRNL and SYSNAM.
+
+Removing
+--------
+PRODUCT REMOVE VLMF. It deassigns VLMF$ROOT and VLMF.
+
+Source, issues and the rest of the family: github.com/issinoho/vms-vlmf and
+openvms.issinoho.com. MIT licence (LICENSE. in the installation directory).
