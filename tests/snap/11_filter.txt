@@ -1,0 +1,24 @@
+ VLMF   STUB$DKA0:[SYSEXE]LMF$LICENSE.LDB;1                   24-OCT-2026 15:02
+┌─────────────────────────────────────────────────────────┬────────────────────┐
+│ Product            Producer Status   Units  Terminates  │ DATABASE           │
+│◆C                  VSI      Active       0  (none)      │  LMF$LICENSE.LDB;1 │
+│ COBOL              VSI      Active       0  (none)      │  Made 20-APR-2023  │
+│                                                         │ LICENSES           │
+│                                                         │  Total           4 │
+│                                                         │  Active          4 │
+│                                                         │  Disabled        0 │
+│                                                         │  Loaded          2 │
+│                                                         │  Expired         0 │
+│                                                         │  Within 30 d     1 │
+│                                                         │ SHOWING            │
+├─────────────────────────────────────────────────────────┤  C*                │
+│ Authorization TEST-AUTH-0002                            │  by product        │
+│ Issuer VSI   Version 0.0   Release (none)               │                    │
+│ Options X86_64                                          │ X86VMS IAIN        │
+│                                                         │  SYSPRV: can change│
+│                                                         │                    │
+│                                                         │                    │
+│ Last change 20-APR-2023 13:05 by SYSTEM, REGISTER       │                    │
+└─────────────────────────────────────────────────────────┴────────────────────┘
+ 2 licenses match C*
+ COMMANDS  PF1 GOLD   Return info   Insert add   Remove remove   Help   F10 exit

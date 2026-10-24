@@ -1,0 +1,24 @@
+ VLMF   Remove VMS-WEBUI                                      24-OCT-2026 15:02
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ VLMF will run this command:                                                  │
+│                                                                              │
+│   $ LICENSE DELETE "VMS-WEBUI"/ISSUER="VSI"/PRODUCER="VSI"                   │
+│       /AUTHORIZATION="TEST-AUTH-0004"                                        │
+│       /DATABASE=STUB$DKA0:[SYSEXE]LMF$LICENSE.LDB                            │
+│                                                                              │
+│                                                                              │
+│ Removing deletes this license and its history records. LMF does not          │
+│ show a PAK's checksum, so to register it again you need the PAK itself.      │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+ Remove? Y or N [N]:
+ CHOOSE  Y do it   any other key: do nothing   Up/Down scroll

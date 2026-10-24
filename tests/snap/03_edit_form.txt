@@ -1,0 +1,24 @@
+ VLMF   Modify FORTRAN from VSI                               24-OCT-2026 15:02
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ Authorization TEST-AUTH-0003   Issuer VSI                                    │
+│ PAK units 100, termination 1-NOV-2026, options X86_64, MOD_UNITS             │
+├──────────────────────────────────────────────────────────────────────────────┤
+│ Units (modified)                                                             │
+│ Termination (mod.)                                                           │
+│ Comment              Pool licence                                            │
+│ Selection weight                                                             │
+│ Include nodes                                                                │
+│ Exclude nodes                                                                │
+│ Reserve users        smith, jones                                            │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│ Empty a field to undo a modification; the PAK's own values stay.             │
+│ User names, commas between: only they may use it                             │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+ FORM  Up/Down Tab Return: field to field   Ctrl/U erase   Ctrl/A overstrike
+ COMMANDS  Do or Enter: done   F10 cancel   Help

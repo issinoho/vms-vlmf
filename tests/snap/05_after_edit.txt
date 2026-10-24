@@ -1,0 +1,24 @@
+ VLMF   STUB$DKA0:[SYSEXE]LMF$LICENSE.LDB;1                   24-OCT-2026 15:02
+┌─────────────────────────────────────────────────────────┬────────────────────┐
+│ Product            Producer Status   Units  Terminates  │ DATABASE           │
+│◆BASIC              VSI      Active       0  30-APR-2027 │  LMF$LICENSE.LDB;1 │
+│◆C                  VSI      Active       0  (none)      │  Made 20-APR-2023  │
+│ FORTRAN            VSI      Active     100  1-NOV-2026  │ LICENSES           │
+│ VMS-WEBUI          VSI      Disabled     0  1-JAN-2026  │  Total           4 │
+│                                                         │  Active          3 │
+│                                                         │  Disabled        1 │
+│                                                         │  Loaded          2 │
+│                                                         │  Expired         0 │
+│                                                         │  Within 30 d     1 │
+│                                                         │ SHOWING            │
+├─────────────────────────────────────────────────────────┤  *                 │
+│ Authorization TEST-AUTH-0003                            │  by product        │
+│ Issuer VSI   Version 0.0   Release (none)               │                    │
+│ Options X86_64, MOD_UNITS                               │ X86VMS IAIN        │
+│ Comment Pool licence                                    │  SYSPRV: can change│
+│ Reserve SMITH,JONES                                     │                    │
+│                                                         │                    │
+│ Last change 24-OCT-2026 15:02 by IAIN, MODIFY           │                    │
+└─────────────────────────────────────────────────────────┴────────────────────┘
+ Modify FORTRAN: done
+ COMMANDS  PF1 GOLD   Return info   Insert add   Remove remove   Help   F10 exit

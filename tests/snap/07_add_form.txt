@@ -1,0 +1,24 @@
+ VLMF   Register a license from its PAK                       24-OCT-2026 15:02
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ Product Name       * cobol                                                   │
+│ Issuer             * VSI                                                     │
+│ Authorization      * TEST-AUTH-0010                                          │
+│ Producer           * VSI                                                     │
+│ Units                0                                                       │
+│ Version                                                                      │
+│ Release Date                                                                 │
+│ Termination Date                                                             │
+│ Availability                                                                 │
+│ Activity                                                                     │
+│ Options                                                                      │
+│ Token                                                                        │
+│ Hardware ID                                                                  │
+│ Checksum           * 1-AAAA-BBBB-CCCC-DDDD                                   │
+│                                                                              │
+│                                                                              │
+│ * needed.  Type the PAK exactly; LMF checks it against the checksum.         │
+│ n-cccc-cccc-cccc-cccc, letters A to P                                        │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+ FORM  Up/Down Tab Return: field to field   Ctrl/U erase   Ctrl/A overstrike
+ COMMANDS  Do or Enter: done   F10 cancel   Help

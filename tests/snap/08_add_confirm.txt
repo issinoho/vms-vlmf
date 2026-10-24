@@ -1,0 +1,24 @@
+ VLMF   Register COBOL                                        24-OCT-2026 15:02
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ VLMF will run this command:                                                  │
+│                                                                              │
+│   $ LICENSE REGISTER "COBOL"/ISSUER="VSI"/AUTHORIZATION="TEST-AUTH-0010"     │
+│       /PRODUCER="VSI"/UNITS=0/CHECKSUM="1-AAAA-BBBB-CCCC-DDDD"               │
+│       /DATABASE=STUB$DKA0:[SYSEXE]LMF$LICENSE.LDB                            │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+ Register? Y or N [N]:
+ CHOOSE  Y do it   any other key: do nothing   Up/Down scroll

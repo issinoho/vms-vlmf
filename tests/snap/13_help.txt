@@ -1,0 +1,24 @@
+ VLMF   Help                                                  24-OCT-2026 15:02
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ THE LICENSE LIST                                                             │
+│                                                                              │
+│   Up/Down, Prev/Next    move;  GOLD Up/Down  first/last                      │
+│   Return, I             Info: every field LMF holds for this license         │
+│   A, Insert Here        Add: register a PAK (type it in)                     │
+│   GOLD A                Add the PAKs in a file (LICENSE REGISTER procedure   │
+│                         or PAK listing, as VSI sends them)                   │
+│   E                     Edit: units, termination, comment, weight,           │
+│                         include/exclude nodes, reserve users                 │
+│   D                     Disable an active license, enable a disabled one     │
+│   R, Remove             Remove the license from the database                 │
+│   L                     Load the license on this node (CMKRNL, SYSNAM)       │
+│   F, Find               filter by product name:  VMS*  C%%  *                │
+│   S                     sort by product, producer, termination, status       │
+│   H                     show the history records too (read-only)             │
+│   GOLD W                read the database again;  Ctrl/W  redraw             │
+│   F10, Ctrl/Z           leave VLMF                                           │
+│                                                                              │
+│   A diamond before a product: SHOW LICENSE lists it as loaded here.          │
+└───────────────────────────────────────────────────────────────────── more ───┘
+ HELP  Up/Down Prev/Next scroll
+ COMMANDS  Any other key returns

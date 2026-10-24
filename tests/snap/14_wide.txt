@@ -1,0 +1,30 @@
+ VLMF   STUB$DKA0:[SYSEXE]LMF$LICENSE.LDB;1                                                                       24-OCT-2026 15:02
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────┬────────────────────┐
+│ Product            Producer  Status    Units  Terminates   Authorization                   Comment          │ DATABASE           │
+│◆BASIC              VSI       Active        0  30-APR-2027  TEST-AUTH-0001                  Site licence     │  LMF$LICENSE.LDB;1 │
+│◆C                  VSI       Active        0  (none)       TEST-AUTH-0002                                   │  Made 20-APR-2023  │
+│ COBOL              VSI       Active        0  (none)       TEST-AUTH-0010                                   │ LICENSES           │
+│ FORTRAN            VSI       Active      200* 31-OCT-2026* TEST-AUTH-0003                  Pool licence     │  Total           5 │
+│ PASCAL             VSI       Active        0  (none)       TEST-AUTH-0011                                   │  Active          5 │
+│                                                                                                             │  Disabled        0 │
+│                                                                                                             │  Loaded          2 │
+│                                                                                                             │  Expired         0 │
+│                                                                                                             │  Within 30 d     1 │
+│                                                                                                             │ SHOWING            │
+│                                                                                                             │  *                 │
+│                                                                                                             │  by product        │
+│                                                                                                             │                    │
+│                                                                                                             │                    │
+│                                                                                                             │  No SYSPRV: read-on│
+│                                                                                                             │                    │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────────────┤                    │
+│ Authorization TEST-AUTH-0001                                                                                │                    │
+│ Issuer VSI   Version 0.0   Release (none)                                                                   │                    │
+│ Options X86_64                                                                                              │                    │
+│ Comment Site licence                                                                                        │                    │
+│                                                                                                             │                    │
+│                                                                                                             │                    │
+│ Last change 24-OCT-2026 15:02 by IAIN, ENABLE                                                               │                    │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────┴────────────────────┘
+ LICENSE  Add Edit Remove Disable/enable Load Filter History Info Sort
+ COMMANDS  PF1 GOLD   Return info   Insert add   Remove remove   Help   F10 exit

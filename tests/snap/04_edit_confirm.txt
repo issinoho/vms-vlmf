@@ -1,0 +1,24 @@
+ VLMF   Modify FORTRAN                                        24-OCT-2026 15:02
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ VLMF will run these commands, in order:                                      │
+│                                                                              │
+│   $ LICENSE MODIFY "FORTRAN"/ISSUER="VSI"/PRODUCER="VSI"                     │
+│       /AUTHORIZATION="TEST-AUTH-0003"/COMMENT="Pool licence"                 │
+│       /DATABASE=STUB$DKA0:[SYSEXE]LMF$LICENSE.LDB                            │
+│   $ LICENSE MODIFY "FORTRAN"/ISSUER="VSI"/PRODUCER="VSI"                     │
+│       /AUTHORIZATION="TEST-AUTH-0003"/RESERVE=(SMITH,JONES)/ADD              │
+│       /DATABASE=STUB$DKA0:[SYSEXE]LMF$LICENSE.LDB                            │
+│                                                                              │
+│ A copy of the database is made first, as VLMF$BACKUP or, if that is not      │
+│ defined, SYS$LOGIN:VLMF_BACKUP.LDB.                                          │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+ Modify? Y or N [N]:
+ CHOOSE  Y do it   any other key: do nothing   Up/Down scroll
